@@ -6,14 +6,16 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Heebo:wght@400;500;700;900">
-</head>
+    <!-- <link rel="stylesheet" href="styles\main.scss"> -->
+<script defer src="styles.js"></script><link href="styles.dd6e1d4730fff39d331f.css" rel="stylesheet"></head>
 
 <body>
     <header class="header">
-         <div class="wrap">
+         <div class="container">
                 <div class="header__container">
-                    <nav class="nav">
+                    <nav class="header__nav">
                         <ul class="nav__list">
                             <li class="nav__item">
                                 <a class="nav__link" href="#">Works</a>
@@ -29,10 +31,20 @@
                 </div>
             </div>
     </header>
+    <!-- <header class="header">
+        <div class="header__container">
+            <nav class="header__nav nav">
+                <div class="nav__links">
+                    <div class="nav__link"><a href="#">Works</a></div>
+                    <div class="nav__link"><a href="#">Blog</a></div>
+                    <div class="nav__link"><a href="#">Contact</a></div>
+                </div>
+            </nav>
+        </div>
+    </header> -->
     
     <main>
         <section class="description">
-            <div class="wrap">
                 <div class="description__container">
                     <div class="description__header">
                         <h1 class="description__title">Hi, I am John,<br> Creative Technologist</h1>
@@ -42,18 +54,15 @@
                         <button class="description__button">Download Resume</button>
                     </div>
                     <div class="description__img">
-                        <img src="img\John.png" alt="John">
+                        <img src="assets/827844632d6f012ee1c2.png" alt="John">
                     </div>
                 </div>
-            </div>      
         </section>
         <section class="recent-posts">
             <div class="recent-posts__container">
                 <div class="recent-posts__background">
-                    <div class="recent-posts__box">
-                        <h3 class="recent-posts__title">Recent posts</h3>
-                        <a class="recent-posts__link" href="#">View all</a>
-                    </div> 
+                    <h3 class="recent-posts__title">Recent posts</h3>
+                    <a class="recent-posts__link" href="#">View all</a>
                     <ul class="recent-posts__list">
                         <li class="recent-posts__item">
                             <a href="#">
@@ -70,8 +79,7 @@
                                 <h2 class="recent-posts__item-title">Creating pixel perfect icons in Figma</h2>
                             </a>
                             <p class="recent-posts__item-subtitle">Figma, Icon Design</p>
-                            <p class="recent-posts__item-text">
-                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            <p class="recent-posts__item-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                                 Velit officia consequat duis enim velit mollit.
                                 Exercitation veniam consequat sunt nostrud amet.
                             </p>
@@ -81,64 +89,56 @@
             </div>
         </section>
         <section class="featured-works">
-            <div class="wrap">
+            <div class="container">
                 <div class="featured-works__container">
                     <h3 class="featured-works__title">Featured works</h3>
                     <ul class="featured-works__list">
                         <li class="featured-works__item">
                                 <div class="featured-works__item-box">
-                                    <img class="featured-works__img" src="img\Dashboard.png" width="246" height="180" alt="Dashboard">
-
-                                    <div class="featured-works__info info__item">
-                                        <a href="#"><h2 class="info__title">Designing Dashboards</h2></a>
-                                        <div class="info__year">
-                                            <span class="info__date">2020</span>
-                                            <span class="info__subtitle">Dashboard</span>
-                                        </div>
-                                        
-                                        <p class="info__text">
-                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                                            Velit officia consequat duis enim velit mollit.
-                                            Exercitation veniam consequat sunt nostrud amet.
-                                        </p>
-                                    </div>     
+                                    <img class="featured-works__item-img" src="assets/dd1dbcf3db18e69a56fe.png" width="246" height="180" alt="Dashboard">
+                                    <a href="#">
+                                        <h2 class="featured-works__item-title">Designing Dashboards</h2>
+                                    </a>
+                                    <div class="featured-works__item-year">
+                                        <p class="featured-works__item-year-text">2020</p>
+                                    </div>
+                                    <p class="featured-works__item-subtitle">Dashboard</p>
+                                    <p class="featured-works__item-text">
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                        Velit officia consequat duis enim velit mollit.
+                                        Exercitation veniam consequat sunt nostrud amet.</p>
                                 </div>
                         </li>
                         <li class="featured-works__item">
                             <div class="featured-works__item-box">
-                                <img class="featured-works__img" src="img\Portrait.png" width="246" height="180" alt="Portrait">
-
-                                <div class="featured-works__info info__item">
-                                    <a href="#"><h2 class="info__title">Vibrant Portraits of 2020</h2></a>
-                                    <div class="info__year">
-                                        <span class="info__date">2018</span>
-                                        <span class="info__subtitle">Illustration</span>
-                                    </div>
-                                    <p class="info__text">
-                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                                        Velit officia consequat duis enim velit mollit.
-                                        Exercitation veniam consequat sunt nostrud amet.
-                                    </p>
+                                <img class="featured-works__item-img" src="assets/5e0567fbd31b2e9b3f43.png" width="246" height="180" alt="Portrait">
+                                <a href="#"><h2 class="featured-works__item-title">Vibrant Portraits of 2020</h2></a>
+                                <div class="featured-works__item-year">
+                                    <p class="featured-works__item-year-text">2018</p>
                                 </div>
+                                <p class="featured-works__item-subtitle">Illustration</p>
+                                <p class="featured-works__item-text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                    Velit officia consequat duis enim velit mollit.
+                                    Exercitation veniam consequat sunt nostrud amet.
+                                </p>
                             </div>
                         </li>
                         <li class="featured-works__item">
-                            <div class="featured-works__item-box">
-                                <img class="featured-works__img" src="img\Typography.png" width="246" height="184" alt="Typography">
-
-                                <div class="featured-works__info info__item">
-                                    <a href="#"><h2 class="info__title">36 Days of Malayalam type</h2></a>
-                                    <div class="info__year">
-                                        <span class="info__date">2018</span>
-                                        <span class="info__subtitle">Typography</span>
+                                <div class="featured-works__item-box">
+                                    <img class="featured-works__item-img" src="assets/4a2923b0c00ebbc92c83.png" width="246" height="184" alt="Typography">
+                                    <a href="#"><h2 class="featured-works__item-title">36 Days of Malayalam type</h2></a> 
+                                    <div class="featured-works__item-year">
+                                        <p class="featured-works__item-year-text">2018</p>
                                     </div>
-                                    <p class="info__text">
+                                    <p class="featured-works__item-subtitle">Typography</p>
+                                    <p class="featured-works__item-text">
                                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                                         Velit officia consequat duis enim velit mollit.
                                         Exercitation veniam consequat sunt nostrud amet.
                                     </p>
                                 </div>
-                            </div>     
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -147,8 +147,8 @@
     </main>
 
     <footer class="footer">
-        <div class="wrap">
-            <div class="footer__container">
+        <div class="container">
+            <div class="footer__wrap">
                 <ul class="footer__list">
                     <li class="footer__item">
                         <a href="#">

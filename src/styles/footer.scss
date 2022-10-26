@@ -1,0 +1,22 @@
+.footer{
+    &__container {
+        align-items: center;
+    }
+
+    &__list {
+        gap: 35px;
+        justify-content: center;
+        display: flex;
+        margin-top: 134px;
+        margin-bottom: 26px;
+    }
+
+    &__copyright {
+        color: #21243D;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 21px;
+        margin-bottom: 22px;
+    }
+}

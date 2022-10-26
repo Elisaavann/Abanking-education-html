@@ -1,0 +1,23 @@
+.nav {
+    &__list {
+      gap: 33px;
+      display: flex;
+      min-height: 70px;
+      margin-left: 708px;
+      position: relative;
+      align-items: center;
+    }
+  
+    &__link {
+      color: #000000;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 29px;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+

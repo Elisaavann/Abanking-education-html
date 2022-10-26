@@ -1,0 +1,39 @@
+@use './header.scss';
+@use './nav.scss';
+@use './description.scss';
+@use './recent-posts.scss';
+@use './featured-works.scss';
+@use './info.scss';
+@use './footer.scss';
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.wrap {
+    max-width: 1152px;
+    margin: 0 auto;
+}
